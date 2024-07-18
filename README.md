@@ -1,6 +1,7 @@
 # BeanSpeciesClassification--UAstat441
 
 *This project is apart of the Statistic 441 class of W2024 @ the University of Alberta under Dr. Wenlu Tang*
+
 **Github is inconsistent with showing all of the files at times. If needed, download the file and load it up locally**
 
 ## Overview
@@ -25,10 +26,10 @@ AspectRatio, Eccentricity, ConvexArea, EquivalentDiameter, Extent, Solidity, Rou
 * Algorithm: Support Vector Machine (SVM)
 * Kernel: Radial Basis Function (RBF)
 
-##Results
+## Results
 * ROC curve to assess the model's predictability of true pos which gave us a AUC of 95% for new testing data, and an accuracy of 91%.
 
-##Future Improvements
+## Future Improvements
 * Check the accuracy with possible diferent shuffles using K-fold Cross Validation
 * Test different parameters of SVM
 * Test different SVM kernels such as lienar or polynomial
